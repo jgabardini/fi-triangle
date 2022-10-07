@@ -12,7 +12,7 @@
     if (a == b && b == c)
       return "equilatero"
     if (a == b || b == c)
-      return "isoseles"
+      return "isosceles"
     return "escaleno"  
   }
   classify2(a, b, c) {
